@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Background from "./components/Background";
 import SocialMedia from "./components/SocialMedia";
+import Section from "./components/Section";
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(
@@ -27,7 +28,10 @@ function App() {
   return (
     <>
       <Background isDarkMode={isDarkMode} handleClick={handleClick}>
-        <SocialMedia isDarkMode={isDarkMode} />
+        <div className="flex flex-col p-5 justify-around h-screen gap-[200px]">
+          <Section isDarkMode={isDarkMode} />
+          <SocialMedia isDarkMode={isDarkMode} />
+        </div>
       </Background>
     </>
   );

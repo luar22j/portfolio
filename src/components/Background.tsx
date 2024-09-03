@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import "../assets/css/global.css";
 
 interface BackgroundProps {
   children: React.ReactNode;
@@ -22,14 +22,14 @@ export const Background: React.FC<BackgroundProps> = ({
         }`}
       ></div>
 
-      <div className="flex items-center justify-center h-screen">
+      <div className="flex items-center justify-center h-screen gap-20">
         {children}
         <button
           onClick={handleClick}
-          className={`border-2 rounded-full p-3 transition-all duration-200 ease-in-out ${
+          className={`bg-button absolute top-8 right-8 border-2 rounded-full p-3 transition-all ${
             isDarkMode
-              ? "text-white border-white shadow-[0_2px_10px_rgba(255,255,255,0.4)] hover:shadow-[0_2px_10px_rgba(255,255,255,0.6)]"
-              : "text-black border-black shadow-[0_2px_10px_rgba(0,0,0,0.3)] hover:shadow-[0_2px_10px_rgba(0,0,0,0.5)]"
+              ? "text-white border-white shadow-[0_2px_10px_#4723a5] hover:shadow-[0_2px_15px_#4723a5]"
+              : "text-black border-black shadow-[0_2px_10px_#a283f5] hover:shadow-[0_2px_15px_#a283f5]"
           }`}
         >
           {isDarkMode ? (

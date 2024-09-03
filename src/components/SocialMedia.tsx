@@ -15,7 +15,7 @@ export const SocialMedia = ({ isDarkMode }: SocialMediaProps) => {
   ) => (
     <li key={key}>
       <a
-        className="block hover:text-slate-200"
+        className="block"
         href={href}
         target="_blank"
         rel="noreferrer noopener"
@@ -25,8 +25,12 @@ export const SocialMedia = ({ isDarkMode }: SocialMediaProps) => {
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox={viewbox}
-          fill={isDarkMode ? "white" : "black"}
-          className="h-6 w-6"
+          fill={isDarkMode ? "#E0E0E0" : "black"} // Cambiado de "white" a "#E0E0E0"
+          className={`h-6 w-6 transition-transform duration-200 ease-in-out hover:scale-125 ${
+            isDarkMode
+              ? "drop-shadow-[0_2px_1px_#4723a5] hover:drop-shadow-[0_2px_2px_#4723a5]"
+              : "drop-shadow-[0_2px_1px_#a283f5] hover:drop-shadow-[0_2px_2px_#a283f5]"
+          }`}
           aria-hidden="true"
         >
           <path d={path}></path>
@@ -36,8 +40,8 @@ export const SocialMedia = ({ isDarkMode }: SocialMediaProps) => {
   );
 
   return (
-    <div>
-      <ul className="flex space-x-4">
+    <div className="flex h-[100px] items-end sticky">
+      <ul className="flex space-x-7">
         {Object.entries(socialMediaData).map(([key, value]) =>
           svg(
             key,
