@@ -1,11 +1,13 @@
 import { useState, useEffect } from "react";
 
 interface BackgroundProps {
+  children: React.ReactNode;
   isDarkMode: boolean;
   handleClick: () => void;
 }
 
 export const Background: React.FC<BackgroundProps> = ({
+  children,
   isDarkMode,
   handleClick,
 }) => {
@@ -21,6 +23,7 @@ export const Background: React.FC<BackgroundProps> = ({
       ></div>
 
       <div className="flex items-center justify-center h-screen">
+        {children}
         <button
           onClick={handleClick}
           className={`border-2 rounded-full p-3 transition-all duration-200 ease-in-out ${

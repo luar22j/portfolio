@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Background from "./components/Background";
+import SocialMedia from "./components/SocialMedia";
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(
@@ -23,7 +24,13 @@ function App() {
     setIsDarkMode(!isDarkMode);
   };
 
-  return <Background isDarkMode={isDarkMode} handleClick={handleClick} />;
+  return (
+    <>
+      <Background isDarkMode={isDarkMode} handleClick={handleClick}>
+        <SocialMedia isDarkMode={isDarkMode} />
+      </Background>
+    </>
+  );
 }
 
 export default App;
