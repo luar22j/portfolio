@@ -1,10 +1,6 @@
 import socialMediaData from "../../public/data/social-media.json";
 
-interface SocialMediaProps {
-  isDarkMode: boolean;
-}
-
-export const SocialMedia = ({ isDarkMode }: SocialMediaProps) => {
+export const SocialMedia = () => {
   const svg = (
     key: string,
     href: string,
@@ -25,12 +21,8 @@ export const SocialMedia = ({ isDarkMode }: SocialMediaProps) => {
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox={viewbox}
-          fill={isDarkMode ? "#E0E0E0" : "black"} // Cambiado de "white" a "#E0E0E0"
-          className={`h-6 w-6 transition-transform duration-200 ease-in-out hover:scale-125 ${
-            isDarkMode
-              ? "drop-shadow-[0_2px_1px_#4723a5] hover:drop-shadow-[0_2px_2px_#4723a5]"
-              : "drop-shadow-[0_2px_1px_#a283f5] hover:drop-shadow-[0_2px_2px_#a283f5]"
-          }`}
+          fill="#E0E0E0"
+          className="h-6 w-6 transition-transform duration-200 ease-in-out hover:scale-125 drop-shadow-[0_2px_1px_#4723a5] hover:drop-shadow-[0_2px_2px_#4723a5]"
           aria-hidden="true"
         >
           <path d={path}></path>
@@ -40,7 +32,7 @@ export const SocialMedia = ({ isDarkMode }: SocialMediaProps) => {
   );
 
   return (
-    <div className="flex h-[100px] items-end sticky">
+    <div className="flex h-[100px]  sticky py-5 items-center justify-center md:justify-between gap-5">
       <ul className="flex space-x-7">
         {Object.entries(socialMediaData).map(([key, value]) =>
           svg(

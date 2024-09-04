@@ -13,3 +13,37 @@
     transform: translateX(0);
   }
 }
+
+.img-animation {
+  animation: img-animation 600ms ease-in-out;
+}
+
+@keyframes img-animation {
+  0% {
+    transform: scale(0, 0);
+  }
+  80% {
+    transform: scale(1.1, 1.1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+/* Estilo para el texto seleccionado */
+::selection {
+  background-color: #4723a5;
+  color: white;
+}
+
+/* Para navegadores webkit (Chrome, Safari, etc.) */
+::-webkit-selection {
+  background-color: #4723a5;
+  color: white;
+}
+
+/* Para Firefox */
+::-moz-selection {
+  background-color: #4723a5;
+  color: white;
+}

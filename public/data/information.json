@@ -1,0 +1,26 @@
+{
+  "goil": {
+    "title": "Goil",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut ipsum quis sem posuere ultrices quis eu ante. Vivamus mattis euismod eros sed imperdiet.",
+    "years": "2024 - PRESENT",
+    "technologies": ["React", "TypeScript", "TailwindCSS"]
+  },
+  "goil2": {
+    "title": "Goil",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut ipsum quis sem posuere ultrices quis eu ante. Vivamus mattis euismod eros sed imperdiet.",
+    "years": "2024 - PRESENT",
+    "technologies": ["React", "TypeScript", "TailwindCSS"]
+  },
+  "goil3": {
+    "title": "Goil",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut ipsum quis sem posuere ultrices quis eu ante. Vivamus mattis euismod eros sed imperdiet.",
+    "years": "2024 - PRESENT",
+    "technologies": ["React", "TypeScript", "TailwindCSS"]
+  },
+  "goil4": {
+    "title": "Goil",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut ipsum quis sem posuere ultrices quis eu ante. Vivamus mattis euismod eros sed imperdiet.",
+    "years": "2024 - PRESENT",
+    "technologies": ["React", "TypeScript", "TailwindCSS"]
+  }
+}

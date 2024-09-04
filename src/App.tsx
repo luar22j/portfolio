@@ -1,36 +1,22 @@
-import { useEffect, useState } from "react";
 import Background from "./components/Background";
 import SocialMedia from "./components/SocialMedia";
-import Section from "./components/Section";
+import Profile from "./components/Profile";
+import Projects from "./components/Projects";
+import Info from "./components/Info";
 
 function App() {
-  const [isDarkMode, setIsDarkMode] = useState(
-    window.matchMedia("(prefers-color-scheme: dark)").matches
-  );
-
-  useEffect(() => {
-    const handleChange = (e: { matches: boolean }) => {
-      setIsDarkMode(e.matches);
-    };
-
-    const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
-    mediaQuery.addEventListener("change", handleChange);
-
-    return () => {
-      mediaQuery.removeEventListener("change", handleChange);
-    };
-  }, []);
-
-  const handleClick = () => {
-    setIsDarkMode(!isDarkMode);
-  };
-
   return (
     <>
-      <Background isDarkMode={isDarkMode} handleClick={handleClick}>
-        <div className="flex flex-col p-5 justify-around h-screen gap-[200px]">
-          <Section isDarkMode={isDarkMode} />
-          <SocialMedia isDarkMode={isDarkMode} />
+      <Background>
+        <div className="flex flex-col items-center min-h-screen lg:px-[100px] gap-[100px]">
+          <div className="flex flex-col h-screen -mt-2 justify-center gap-[200px]">
+            <Profile />
+            <SocialMedia />
+          </div>
+          <div className="flex flex-col gap-[200px]">
+            <Info />
+            <Projects />
+          </div>
         </div>
       </Background>
     </>

@@ -1,0 +1,30 @@
+{
+  "primark-project": {
+    "name": "Primark Project",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non mattis lectus. Donec quis ipsum vitae ante convallis faucibus sed ut ligula. In tempus ullamcorper rhoncus. Nunc suscipit accumsan hendrerit. Sed id venenatis augue. Cras velit leo, suscipit id gravida id, varius eu velit. In congue nunc eros, vitae molestie urna gravida at. ",
+    "image": "primark.jpg",
+    "link": "https://github.com/luar22j/primark-project",
+    "tecnologies": ["React", "TypeScript", "JavaScript", "TailwindCSS"]
+  },
+  "js-project": {
+    "name": "JS Project",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non mattis lectus. Donec quis ipsum vitae ante convallis faucibus sed ut ligula. In tempus ullamcorper rhoncus. Nunc suscipit accumsan hendrerit. Sed id venenatis augue. Cras velit leo, suscipit id gravida id, varius eu velit. In congue nunc eros, vitae molestie urna gravida at. ",
+    "image": "js.jpg",
+    "link": "https://github.com/luar22j/messaging",
+    "tecnologies": ["JavaScript", "HTML", "CSS"]
+  },
+  "first-project": {
+    "name": "First Project",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non mattis lectus. Donec quis ipsum vitae ante convallis faucibus sed ut ligula. In tempus ullamcorper rhoncus. Nunc suscipit accumsan hendrerit. Sed id venenatis augue. Cras velit leo, suscipit id gravida id, varius eu velit. In congue nunc eros, vitae molestie urna gravida at. ",
+    "image": "first.jpg",
+    "link": "https://github.com/luar22j/first-project",
+    "tecnologies": ["HTML", "CSS"]
+  },
+  "messaging": {
+    "name": "Messaging",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non mattis lectus. Donec quis ipsum vitae ante convallis faucibus sed ut ligula. In tempus ullamcorper rhoncus. Nunc suscipit accumsan hendrerit. Sed id venenatis augue. Cras velit leo, suscipit id gravida id, varius eu velit. In congue nunc eros, vitae molestie urna gravida at. ",
+    "image": "messaging.jpg",
+    "link": "https://github.com/luar22j/messaging",
+    "tecnologies": ["JavaScript", "HTML", "CSS"]
+  }
+}
