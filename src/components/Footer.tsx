@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import "../assets/css/global.css";
 
 export const Footer = () => {
   const footerRef = useRef<HTMLDivElement>(null);
@@ -12,7 +13,7 @@ export const Footer = () => {
           }
         });
       },
-      { threshold: 0.3 }
+      { threshold: 0.1 }
     );
 
     if (footerRef.current) {
@@ -27,7 +28,10 @@ export const Footer = () => {
   }, []);
 
   return (
-    <div ref={footerRef} className="fade-in text-white drop-shadow-lg">
+    <div
+      ref={footerRef}
+      className="fade-in -mt-10 text-white text-justify drop-shadow-lg"
+    >
       Designed by Luar. Built with React and Tailwind CSS.
     </div>
   );

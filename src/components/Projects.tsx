@@ -22,7 +22,7 @@ export const Project = () => {
           }
         });
       },
-      { threshold: 0.3 }
+      { threshold: 0.1 }
     );
 
     if (projectsRef.current) {
@@ -59,7 +59,7 @@ export const Project = () => {
                     className="bg-section aspect-video relative overflow-hidden rounded-lg transition-all shadow-[1px_1px_3px_#4723a5] w-full"
                   >
                     <img
-                      className="card-effect w-full h-full object-cover"
+                      className="w-full h-full object-cover"
                       src={`./img/projects/${image}`}
                       alt={name}
                     />

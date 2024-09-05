@@ -15,20 +15,6 @@
   }
 }
 
-.img-animation {
-  animation: img-animation 300ms ease-in-out var(--delay, 0ms) forwards;
-  opacity: 0;
-}
-
-@keyframes img-animation {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
 .text-animation {
   animation: text-animation 300ms ease-in-out var(--delay, 0ms) forwards;
   opacity: 0;
