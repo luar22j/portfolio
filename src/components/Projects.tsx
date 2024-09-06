@@ -51,7 +51,7 @@ export const Project = () => {
                 href={link}
                 target="_blank"
                 key={key}
-                className="bg-section flex justify-start gap-5 transition-all p-7 rounded-lg group hover:shadow bg-purple-900 bg-opacity-25 hover:bg-opacity-35 w-full"
+                className="bg-section flex justify-start gap-5 transition-all p-7 rounded-lg group hover:shadow bg-purple-900 bg-opacity-25 hover:bg-opacity-45 w-full"
               >
                 <div className="flex flex-col gap-5 w-full">
                   <div

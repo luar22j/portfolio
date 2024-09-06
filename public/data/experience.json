@@ -3,24 +3,45 @@
     "title": "Goil",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut ipsum quis sem posuere ultrices quis eu ante. Vivamus mattis euismod eros sed imperdiet.",
     "years": "2024 - PRESENT",
-    "technologies": ["React", "TypeScript", "TailwindCSS"]
+    "technologies": [
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "TailwindCSS",
+      "HTML",
+      "CSS",
+      "MongoDB",
+      "Git",
+      "Bitbucket"
+    ]
   },
-  "goil2": {
-    "title": "Goil",
+  "daw": {
+    "title": "DAW",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut ipsum quis sem posuere ultrices quis eu ante. Vivamus mattis euismod eros sed imperdiet.",
     "years": "2024 - PRESENT",
-    "technologies": ["React", "TypeScript", "TailwindCSS"]
+    "technologies": [
+      "Java",
+      "HTML",
+      "CSS",
+      "PHP",
+      "SQL",
+      "Git",
+      "GitHub",
+      "Docker",
+      "VirtualBox",
+      "WordPress"
+    ]
   },
-  "goil3": {
-    "title": "Goil",
+  "goli": {
+    "title": "Golí",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut ipsum quis sem posuere ultrices quis eu ante. Vivamus mattis euismod eros sed imperdiet.",
     "years": "2024 - PRESENT",
-    "technologies": ["React", "TypeScript", "TailwindCSS"]
+    "technologies": ["Angular", "JavaScript", "Bootstrap"]
   },
-  "goil4": {
-    "title": "Goil",
+  "goal": {
+    "title": "Goal",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut ipsum quis sem posuere ultrices quis eu ante. Vivamus mattis euismod eros sed imperdiet.",
     "years": "2024 - PRESENT",
-    "technologies": ["React", "TypeScript", "TailwindCSS"]
+    "technologies": ["HTML", "CSS", "JavaScript"]
   }
 }
