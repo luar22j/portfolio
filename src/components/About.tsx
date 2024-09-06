@@ -8,7 +8,7 @@ export const About = () => {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            entry.target.classList.add("fade-in-visible");
+            entry.target.classList.add("about-visible");
           }
         });
       },
@@ -27,12 +27,15 @@ export const About = () => {
   }, []);
 
   return (
-    <div ref={aboutRef} className="flex flex-col gap-5 text-justify fade-in">
-      <h1 className="drop-shadow-[0_2px_10px_#4723a5] title-animation text-3xl font-bold text-gray-200">
+    <div
+      ref={aboutRef}
+      className="flex flex-col gap-5 text-justify about-hidden"
+    >
+      <h1 className="title-animation drop-shadow-[0_2px_10px_#4723a5] text-3xl font-bold text-gray-200">
         About
       </h1>
 
-      <div className="slide-in text-gray-400">
+      <div className="text-animation text-gray-400">
         Ut vel sodales velit, sed maximus dolor.{" "}
         <span className="text-white hover:text-purple-400 hover:drop-shadow-[0_0_10px_#4723a5] transition-all">
           <a href="">Nullam enim augue</a>
