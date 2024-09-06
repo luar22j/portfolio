@@ -9,7 +9,7 @@ export const Footer = () => {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            entry.target.classList.add("fade-in-visible");
+            entry.target.classList.add("footer-visible");
           }
         });
       },
@@ -28,11 +28,10 @@ export const Footer = () => {
   }, []);
 
   return (
-    <div
-      ref={footerRef}
-      className="fade-in -mt-10 text-white text-justify drop-shadow-lg"
-    >
-      Designed by Luar. Built with React and Tailwind CSS.
+    <div ref={footerRef} className="footer-hidden">
+      <p className="text-animation text-white text-justify drop-shadow-lg">
+        Designed by Luar. Built with React and Tailwind CSS.
+      </p>
     </div>
   );
 };
