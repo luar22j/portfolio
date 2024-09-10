@@ -13,6 +13,13 @@
     "link": "https://github.com/luar22j/messaging",
     "tecnologies": ["JavaScript", "HTML", "CSS"]
   },
+  "password-generator": {
+    "name": "Password Generator",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non mattis lectus. Donec quis ipsum vitae ante convallis faucibus sed ut ligula. In tempus ullamcorper rhoncus. Nunc suscipit accumsan hendrerit. Sed id venenatis augue. Cras velit leo, suscipit id gravida id, varius eu velit. In congue nunc eros, vitae molestie urna gravida at. ",
+    "image": "password.jpg",
+    "link": "https://github.com/luar22j/password-generator",
+    "tecnologies": ["React", "JavaScript", "TailwindCSS"]
+  },
   "first-project": {
     "name": "First Project",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non mattis lectus. Donec quis ipsum vitae ante convallis faucibus sed ut ligula. In tempus ullamcorper rhoncus. Nunc suscipit accumsan hendrerit. Sed id venenatis augue. Cras velit leo, suscipit id gravida id, varius eu velit. In congue nunc eros, vitae molestie urna gravida at. ",
