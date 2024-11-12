@@ -12,15 +12,17 @@
       "CSS",
       "MongoDB",
       "Git",
-      "Bitbucket"
+      "GitHub"
     ]
   },
   "daw": {
     "title": "DAW",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut ipsum quis sem posuere ultrices quis eu ante. Vivamus mattis euismod eros sed imperdiet.",
-    "years": "2024 - PRESENT",
+    "years": "2023 - PRESENT",
     "technologies": [
       "Java",
+      "JavaScript",
+      "Python",
       "HTML",
       "CSS",
       "PHP",
@@ -31,17 +33,5 @@
       "VirtualBox",
       "WordPress"
     ]
-  },
-  "goli": {
-    "title": "Golí",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut ipsum quis sem posuere ultrices quis eu ante. Vivamus mattis euismod eros sed imperdiet.",
-    "years": "2024 - PRESENT",
-    "technologies": ["Angular", "JavaScript", "Bootstrap"]
-  },
-  "goal": {
-    "title": "Goal",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut ipsum quis sem posuere ultrices quis eu ante. Vivamus mattis euismod eros sed imperdiet.",
-    "years": "2024 - PRESENT",
-    "technologies": ["HTML", "CSS", "JavaScript"]
   }
 }

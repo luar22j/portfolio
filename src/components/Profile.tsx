@@ -21,7 +21,7 @@ export const Profile = () => {
           </div>
           <img
             className="relative z-10 min-h-40 min-w-40 h-40 w-40 md:h-52 md:w-52 shadow-[0_0_20px_#4723a5] rounded-full object-cover cursor-pointer"
-            src="./img/sheriff.jpg"
+            src="./img/profile.webp"
             alt="Luar"
           />
         </div>

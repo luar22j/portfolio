@@ -2,36 +2,43 @@
   "primark-project": {
     "name": "Primark Project",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non mattis lectus. Donec quis ipsum vitae ante convallis faucibus sed ut ligula. In tempus ullamcorper rhoncus. Nunc suscipit accumsan hendrerit. Sed id venenatis augue. Cras velit leo, suscipit id gravida id, varius eu velit. In congue nunc eros, vitae molestie urna gravida at. ",
-    "image": "primark.jpg",
+    "image": "primark.webp",
     "link": "https://github.com/luar22j/primark-project",
     "tecnologies": ["React", "TypeScript", "JavaScript", "TailwindCSS"]
   },
   "js-project": {
     "name": "JS Project",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non mattis lectus. Donec quis ipsum vitae ante convallis faucibus sed ut ligula. In tempus ullamcorper rhoncus. Nunc suscipit accumsan hendrerit. Sed id venenatis augue. Cras velit leo, suscipit id gravida id, varius eu velit. In congue nunc eros, vitae molestie urna gravida at. ",
-    "image": "js.jpg",
+    "image": "js.webp",
     "link": "https://github.com/luar22j/messaging",
     "tecnologies": ["JavaScript", "HTML", "CSS"]
   },
   "password-generator": {
     "name": "Password Generator",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non mattis lectus. Donec quis ipsum vitae ante convallis faucibus sed ut ligula. In tempus ullamcorper rhoncus. Nunc suscipit accumsan hendrerit. Sed id venenatis augue. Cras velit leo, suscipit id gravida id, varius eu velit. In congue nunc eros, vitae molestie urna gravida at. ",
-    "image": "password.jpg",
+    "image": "password.webp",
     "link": "https://github.com/luar22j/password-generator",
     "tecnologies": ["React", "JavaScript", "TailwindCSS"]
   },
   "first-project": {
     "name": "First Project",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non mattis lectus. Donec quis ipsum vitae ante convallis faucibus sed ut ligula. In tempus ullamcorper rhoncus. Nunc suscipit accumsan hendrerit. Sed id venenatis augue. Cras velit leo, suscipit id gravida id, varius eu velit. In congue nunc eros, vitae molestie urna gravida at. ",
-    "image": "first.jpg",
+    "image": "first.webp",
     "link": "https://github.com/luar22j/first-project",
     "tecnologies": ["HTML", "CSS"]
   },
   "messaging": {
     "name": "Messaging",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non mattis lectus. Donec quis ipsum vitae ante convallis faucibus sed ut ligula. In tempus ullamcorper rhoncus. Nunc suscipit accumsan hendrerit. Sed id venenatis augue. Cras velit leo, suscipit id gravida id, varius eu velit. In congue nunc eros, vitae molestie urna gravida at. ",
-    "image": "messaging.jpg",
+    "image": "messaging.webp",
     "link": "https://github.com/luar22j/messaging",
     "tecnologies": ["JavaScript", "HTML", "CSS"]
+  },
+  "lottie": {
+    "name": "Lottie",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non mattis lectus. Donec quis ipsum vitae ante convallis faucibus sed ut ligula. In tempus ullamcorper rhoncus. Nunc suscipit accumsan hendrerit. Sed id venenatis augue. Cras velit leo, suscipit id gravida id, varius eu velit. In congue nunc eros, vitae molestie urna gravida at. ",
+    "image": "lottie.webp",
+    "link": "https://github.com/luar22j/lottie-example-2",
+    "tecnologies": ["React", "JavaScript", "HTML", "CSS"]
   }
 }
