@@ -31,7 +31,7 @@ export const Profile = () => {
           className="profile-animation text-gray-300 md:text-3xl text-2xl font-bold transition-all"
           style={{ "--delay": "200ms" } as React.CSSProperties}
         >
-          Junior Front End Developer
+          Front-End Developer
         </h2>
         <p
           className="profile-animation text-gray-400 md:text-lg text transition-all"

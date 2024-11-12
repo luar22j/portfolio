@@ -1,42 +1,42 @@
 {
   "primark-project": {
     "name": "Primark Project",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non mattis lectus. Donec quis ipsum vitae ante convallis faucibus sed ut ligula. In tempus ullamcorper rhoncus. Nunc suscipit accumsan hendrerit. Sed id venenatis augue. Cras velit leo, suscipit id gravida id, varius eu velit. In congue nunc eros, vitae molestie urna gravida at. ",
+    "description": "This project, a Primark website clone, is where I first learned the fundamentals of React and how this powerful framework works. Through building this site, I gained hands-on experience with React’s component structure, state management, and key features. This project laid the groundwork for my front-end development skills and helped me understand how to create dynamic, responsive applications. ",
     "image": "primark.webp",
     "link": "https://github.com/luar22j/primark-project",
     "tecnologies": ["React", "TypeScript", "JavaScript", "TailwindCSS"]
   },
   "js-project": {
     "name": "JS Project",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non mattis lectus. Donec quis ipsum vitae ante convallis faucibus sed ut ligula. In tempus ullamcorper rhoncus. Nunc suscipit accumsan hendrerit. Sed id venenatis augue. Cras velit leo, suscipit id gravida id, varius eu velit. In congue nunc eros, vitae molestie urna gravida at. ",
+    "description": "In this project, built with just HTML, CSS, and JavaScript, I learned the core fundamentals of JavaScript along with jQuery. This project helped me understand essential concepts like DOM manipulation, event handling, and basic interactivity, laying a strong foundation in front-end development. It was a great introduction to coding dynamic elements and enhancing user experience on the web. ",
     "image": "js.webp",
     "link": "https://github.com/luar22j/messaging",
     "tecnologies": ["JavaScript", "HTML", "CSS"]
   },
   "password-generator": {
     "name": "Password Generator",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non mattis lectus. Donec quis ipsum vitae ante convallis faucibus sed ut ligula. In tempus ullamcorper rhoncus. Nunc suscipit accumsan hendrerit. Sed id venenatis augue. Cras velit leo, suscipit id gravida id, varius eu velit. In congue nunc eros, vitae molestie urna gravida at. ",
+    "description": "This project is a Password Generator built using React and styled with Tailwind CSS. Through this project, I strengthened my skills in component-based design with React and learned how to efficiently style applications with Tailwind CSS. It was a valuable experience in creating an interactive and functional tool, and I enjoyed building a clean, user-friendly interface that provides secure, randomly generated passwords. ",
     "image": "password.webp",
     "link": "https://github.com/luar22j/password-generator",
     "tecnologies": ["React", "JavaScript", "TailwindCSS"]
   },
   "first-project": {
     "name": "First Project",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non mattis lectus. Donec quis ipsum vitae ante convallis faucibus sed ut ligula. In tempus ullamcorper rhoncus. Nunc suscipit accumsan hendrerit. Sed id venenatis augue. Cras velit leo, suscipit id gravida id, varius eu velit. In congue nunc eros, vitae molestie urna gravida at. ",
+    "description": "This project was built solely with HTML and CSS, without using Flexbox or Grid. By focusing on the basics, I learned how CSS works from the ground up—understanding selectors, positioning, styling elements, and creating layouts without relying on advanced techniques. This experience gave me a solid grasp of CSS fundamentals, which I now apply to more complex layouts and responsive designs. ",
     "image": "first.webp",
     "link": "https://github.com/luar22j/first-project",
     "tecnologies": ["HTML", "CSS"]
   },
   "messaging": {
     "name": "Messaging",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non mattis lectus. Donec quis ipsum vitae ante convallis faucibus sed ut ligula. In tempus ullamcorper rhoncus. Nunc suscipit accumsan hendrerit. Sed id venenatis augue. Cras velit leo, suscipit id gravida id, varius eu velit. In congue nunc eros, vitae molestie urna gravida at. ",
+    "description": "In this project, I experimented with creating animations triggered by scrolling, using JavaScript. I learned how to make elements appear, move, or transform as the user scrolls through the page, adding a dynamic and engaging feel to the site. This project taught me how to work with scroll events, calculate element positions, and create smooth, interactive animations, enhancing the user experience through visual feedback. ",
     "image": "messaging.webp",
     "link": "https://github.com/luar22j/messaging",
     "tecnologies": ["JavaScript", "HTML", "CSS"]
   },
   "lottie": {
     "name": "Lottie",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non mattis lectus. Donec quis ipsum vitae ante convallis faucibus sed ut ligula. In tempus ullamcorper rhoncus. Nunc suscipit accumsan hendrerit. Sed id venenatis augue. Cras velit leo, suscipit id gravida id, varius eu velit. In congue nunc eros, vitae molestie urna gravida at. ",
+    "description": "In this project, I combined React with Lottie to create SVG animations that are triggered as the user scrolls. By integrating Lottie, I was able to add smooth, high-quality animations to SVG elements, making the user experience more dynamic and engaging. This project allowed me to explore how to manage animations in React and synchronize them with the scrolling behavior, providing a seamless interactive effect. ",
     "image": "lottie.webp",
     "link": "https://github.com/luar22j/lottie-example-2",
     "tecnologies": ["React", "JavaScript", "HTML", "CSS"]

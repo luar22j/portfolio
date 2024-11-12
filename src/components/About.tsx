@@ -35,23 +35,14 @@ export const About = () => {
         About
       </h1>
 
-      <div className="text-animation text-gray-400">
-        Ut vel sodales velit, sed maximus dolor.{" "}
-        <span className="text-white hover:text-purple-400 hover:drop-shadow-[0_0_10px_#4723a5] transition-all">
-          <a href="">Nullam enim augue</a>
-        </span>
-        , bibendum ultrices quam vel, egestas accumsan libero. Vestibulum eu
-        diam a elit ultricies egestas vel ac massa.{" "}
-        <span className="text-white hover:text-purple-400 hover:drop-shadow-[0_0_10px_#4723a5] transition-all">
-          <a href="">Phasellus ut elit lacus</a>
-        </span>
-        . Proin euismod nulla ac nisi molestie fringilla. Curabitur id eleifend
-        arcu. Nunc sagittis molestie odio, id suscipit velit ullamcorper ac. In
-        ullamcorper mauris nec semper varius. Duis quis enim diam.{" "}
-        <span className="text-white hover:text-purple-400 hover:drop-shadow-[0_0_10px_#4723a5] transition-all">
-          <a href="">Maecenas at egestas orci</a>
-        </span>
-        .
+      <div className="text-animation text-gray-200">
+        Hi, I'm a front-end developer with 1 year of experience in the field.
+        I'm passionate about building, learning, and continuously growing in the
+        tech industry. I'm eager to take on projects of all sizes and
+        complexities, always aiming to improve my skills and deliver quality
+        work. My goal is to keep advancing in this ever-evolving field, tackling
+        new challenges and exploring innovative ideas. Let's create something
+        amazing together!
       </div>
     </div>
   );
