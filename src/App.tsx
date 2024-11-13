@@ -2,7 +2,7 @@ import Background from "./components/Background";
 import SocialMedia from "./components/SocialMedia";
 import Profile from "./components/Profile";
 import Projects from "./components/Projects";
-import Info from "./components/Experience";
+import Experience from "./components/Experience";
 import About from "./components/About";
 import Footer from "./components/Footer";
 
@@ -17,7 +17,7 @@ function App() {
           </div>
           <div className="flex flex-col gap-[200px]">
             <About />
-            <Info />
+            <Experience />
             <Projects />
           </div>
           <Footer />

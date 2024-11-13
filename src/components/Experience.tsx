@@ -7,9 +7,10 @@ interface InformationItem {
   description: string;
   years: string;
   technologies?: string[];
+  link: string;
 }
 
-export const Info = () => {
+export const Experience = () => {
   const experienceRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -42,8 +43,8 @@ export const Info = () => {
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
         {Object.entries(informationData).map(([key, item], index) => {
-          const { title, description, years, technologies } =
-            item as InformationItem;
+          const { title, description, years, technologies, link } =
+            item as InformationItem & { link: string };
           const delay = `${index * 200}ms`;
 
           return (
@@ -51,8 +52,9 @@ export const Info = () => {
               key={key}
               className="bg-section flex lg:flex-row flex-col justify-center gap-5 transition-all p-7 pl-5 rounded-lg group hover:shadow bg-purple-900 bg-opacity-25 hover:bg-opacity-45 w-full cursor-pointer"
               style={{ "--delay": delay } as React.CSSProperties}
-              href={item.link}
+              href={link}
               target="_blank"
+              rel="noopener noreferrer"
             >
               <div className="flex text-gray-400">
                 <p
@@ -129,4 +131,4 @@ export const Info = () => {
   );
 };
 
-export default Info;
+export default Experience;
