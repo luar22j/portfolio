@@ -13,7 +13,8 @@
       "MongoDB",
       "Git",
       "GitHub"
-    ]
+    ],
+    "link": "https://www.goil.app/"
   },
   "daw": {
     "title": "DAW",
@@ -32,6 +33,7 @@
       "Docker",
       "VirtualBox",
       "WordPress"
-    ]
+    ],
+    "link": "https://www.inscamidemar.cat/"
   }
 }

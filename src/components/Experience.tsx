@@ -51,6 +51,8 @@ export const Info = () => {
               key={key}
               className="bg-section flex lg:flex-row flex-col justify-center gap-5 transition-all p-7 pl-5 rounded-lg group hover:shadow bg-purple-900 bg-opacity-25 hover:bg-opacity-45 w-full cursor-pointer"
               style={{ "--delay": delay } as React.CSSProperties}
+              href={item.link}
+              target="_blank"
             >
               <div className="flex text-gray-400">
                 <p
